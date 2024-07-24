@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    margin-top: 40px;
+}
+.bi-plus {
+  color: red;
+  font-size: 24px;
+}
+
+header{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header .search_div{
+    background-color: rgb(134, 223, 134);
+    text-align: center;
+    border-radius: 5px;
+    padding: 8px;
+    
+
+}
+
+header .search_div i{
+    font-size: 12px;
+ color: black;
+}
+
+header .search_div input{
+    width: 80%;
+    border: none;
+    
+    background-color:  rgb(185, 245, 185);
+    
+    font-size: 13px;
+
+}
+
+header .addNew{
+    padding: 10px 60px;
+    background-color:  rgb(134, 223, 134);
+    border-radius: 5px;
+    border: none;
+    color: black;
+    align-items: center;
+
+}
+
+
+
+.overlay{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom:0;
+    position: fixed;
+    background-color:rgba(0, 0, 0, .8) ;
+    z-index: 1;
+   
+    
+}
+
+.addNewContact{
+    width: 25%;
+    
+    background-color: cyan;
+    position: absolute;
+    bottom: 45%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    text-align: center;
+    border-radius: 40px;
+    padding: 40px;
+    border: 1px solid black;
+    z-index: 2;
+    display: none;
+  
+
+}
+
+.addNewContact > i{
+    font-size: 90px;
+
+}
+
+.addNewContact input{
+    width: 100%;
+    margin-top: 20%;
+    padding: 10px 20px ;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    color: gray;
+    font-size: 20px;
+
+}
+.addNewContact .btn{
+    background-color: transparent;
+    padding: 10px 20px;
+    font-size: 20px;
+    margin-top: 30px;
+    border-radius: 6px;
+
+}
+
+.fle{
+    display: flex;
+    gap: 15px;
+}
+
+.addNewContact .close{
+    font-size: 30px;
+    position: absolute;
+    top: 3%;
+    right: 5%;
+}
+.save-btn{
+    border: 3px solid black;
+    background-color: transparent;
+    border-radius: 10%;
+    padding: 10px;
+    margin-top: 10px;
+    border-style: double;
+}
+
+section.table_section{
+    margin-top: 40px;
+    padding: 20px;
+    
+}
+
+.green{
+    color: green;
+}
+.red{
+    color: red;
+}
